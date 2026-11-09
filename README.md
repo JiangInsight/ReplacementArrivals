@@ -1,23 +1,25 @@
 # Output-Sensitive Replacement Arrivals in Temporal Contact Streams
 
-**Who arrives later when one contact is withdrawn?** With the deadline at time 6, recipients *a*, *b* and *c* still receive the message. Recipient *d* first receives it at time 7 and misses the deadline.
+A withdrawal query removes one contact and returns each delayed recipient with its original and replacement arrival times.
 
-![Original and replacement arrival times for the four recipients, with a deadline at time 6.](figures/withdrawal.png)
+![Replacement arrivals after a contact is withdrawn, with a deadline at time 6.](figures/withdrawal.png)
 
-A dependency subtree identifies the affected recipients. One depth threshold recovers their replacement times.
+## A withdrawal query
 
-- **Space.** The independent time-expanded dominator index used a median of **2.48×** the component index’s retained bytes. The component index was smaller in 35 of 36 source sessions.
-- **Service time.** The median ratio for the same two methods was **1.03** across nine logs. The three-run ranges overlapped on every log.
+Rows in [contacts.csv](data/contacts.csv) are numbered from zero. The first [query](data/queries.tsv) withdraws row 1, the contact from vertex 1 to vertex 2 at time 2, with deadline 7. Two recipients change:
 
-<details>
-<summary>Replay the seven example queries</summary>
+| Recipient | Original arrival | Replacement arrival |
+|---:|---:|---:|
+| 2 | 2 | 5 |
+| 4 | 3 | 6 |
 
-On x64 Windows with Python 3.10+ and Visual Studio C++ Build Tools:
+Run all seven queries on x64 Windows with Visual Studio C++ Build Tools and Python 3.10+:
 
-~~~powershell
+```powershell
 .\build.cmd
 python run_example.py
-~~~
+```
 
-Both indexes are checked against chronological replay.
-</details>
+The component index and the time-expanded dominator index each return the same rosters as chronological replay.
+
+Across 36 source sessions, the component index used less space in 35. The median ratio of expanded to component bytes was **2.48**. On nine logs the corresponding median service-time ratio was **1.03**, with overlapping three-run ranges on every log. [Space](data/session-space.csv) · [Service time](data/matched-runs.csv)
