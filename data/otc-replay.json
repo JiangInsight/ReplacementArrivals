@@ -1,0 +1,12 @@
+{
+  "raw_sha256": "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373",
+  "budget_bytes": 1048576,
+  "schedule_sha256": "b912c1e926250c28c2c964d21c48928f47156dbce4eecaf05e25c52e2efe923b",
+  "input_sha256": "85fda9263742a99b47296030989c2862b3266cb277f8a03da7b22f26acc34018",
+  "answer_sha256": "67f2c33176270e17b1530fd1117fe9bde012cfd29bafcd0f5c45111b12f7b960",
+  "builds": {
+    "repair": 17,
+    "component": 4,
+    "expanded": 13
+  }
+}

@@ -13,4 +13,6 @@ if not exist build mkdir build
 pushd build
 cl /nologo /O2 /std:c++20 /EHsc ..\src\expanded_point_control.cpp /Fe:arrivals.exe
 if errorlevel 1 exit /b 1
+cl /nologo /O2 /std:c++20 /EHsc ..\src\source_cache.cpp /Fe:source_cache.exe
+if errorlevel 1 exit /b 1
 popd

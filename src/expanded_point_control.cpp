@@ -213,6 +213,7 @@ std::pair<uint64_t, uint64_t> serve(const char *query_file, const char *output_f
     return {requests, output};
 }
 
+#ifndef ARRIVAL_INDEX_TYPES_ONLY
 int main(int argc, char **argv) {
     if (argc != 7 && argc != 8)
         return 2;
@@ -264,3 +265,4 @@ int main(int argc, char **argv) {
     } else
         return 5;
 }
+#endif
