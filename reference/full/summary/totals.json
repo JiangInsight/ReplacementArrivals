@@ -1,0 +1,23 @@
+{
+  "logs": 9,
+  "real_records": 136755380,
+  "real_sessions": 2052,
+  "native_settings": 684,
+  "unique_queries": 4608,
+  "all_withdrawal_scenarios": 410323380,
+  "positive_census": 3959601,
+  "recipient_census": 5008194,
+  "synthetic_families": 4,
+  "synthetic_inputs": 13,
+  "fixed_source_requests": 18432,
+  "timed_real_requests_including_repeats": 262656,
+  "timetable_sessions": 120,
+  "timetable_records": 2904212,
+  "native_seeds_sessions": 108,
+  "native_stress_sessions": 312,
+  "online_runs": 2472,
+  "census_runs": 180,
+  "known_batch_runs": 135,
+  "all_processes": 2907,
+  "incomplete": 0
+}

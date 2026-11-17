@@ -1,0 +1,12 @@
+{
+  "graph": "higgs",
+  "cohort": 1,
+  "seed": 2027,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 55986,
+  "reachable": 145625,
+  "total_rows": 563069,
+  "vertices": 304691,
+  "workload_sha256": "0b057d20bc8b0687fd1fbb85adfa90428ed702d656dcf23721b9e3bc3c6c790c"
+}

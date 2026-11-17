@@ -1,0 +1,12 @@
+{
+  "graph": "coin",
+  "cohort": 2,
+  "seed": 9409,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 40084,
+  "reachable": 623712,
+  "total_rows": 22809486,
+  "vertices": 638486,
+  "workload_sha256": "83e7d03439281b35e051b2cfeb5d97cd1b08d630b7a61a6254bdf07395704b28"
+}

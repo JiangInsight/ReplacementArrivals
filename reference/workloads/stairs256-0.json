@@ -1,0 +1,12 @@
+{
+  "graph": "stairs256",
+  "cohort": 0,
+  "seed": 711,
+  "release_row": 0,
+  "release_time": 1,
+  "source": 0,
+  "reachable": 513,
+  "total_rows": 66048,
+  "vertices": 513,
+  "workload_sha256": "2920094f8e75f58ce935bff70e6a4258cfe75c1407454c079ac57c2ea8a641ea"
+}

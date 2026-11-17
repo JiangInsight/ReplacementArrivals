@@ -1,0 +1,11 @@
+{
+  "dataset": "otc",
+  "url": "https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz",
+  "raw_sha256": "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373",
+  "rows": 35592,
+  "vertices": 5881,
+  "times": 35592,
+  "tick": "10^-5 seconds",
+  "packed_sha256": "85fda9263742a99b47296030989c2862b3266cb277f8a03da7b22f26acc34018",
+  "raw_bytes": 397258
+}

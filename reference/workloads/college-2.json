@@ -1,0 +1,12 @@
+{
+  "graph": "college",
+  "cohort": 2,
+  "seed": 9409,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 46,
+  "reachable": 1585,
+  "total_rows": 59835,
+  "vertices": 1899,
+  "workload_sha256": "2847530d2650bd2745276c34a91c773a1b7c321f6e90c87630faefda0740a1dd"
+}

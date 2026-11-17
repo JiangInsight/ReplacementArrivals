@@ -1,0 +1,12 @@
+{
+  "graph": "math",
+  "cohort": 5,
+  "seed": 91,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 278,
+  "reachable": 21631,
+  "total_rows": 506550,
+  "vertices": 24818,
+  "workload_sha256": "9ee40ab1457e124d4ed018a50411203363e8af69db6dad9e87bf22303a6231bd"
+}

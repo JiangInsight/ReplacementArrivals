@@ -1,0 +1,11 @@
+{
+  "dataset": "ubuntu",
+  "url": "https://snap.stanford.edu/data/sx-askubuntu.txt.gz",
+  "raw_sha256": "54af4be03bf77030e8894e445679c4e20614f0b82d68fc8cb49431f70e07a0f6",
+  "rows": 964437,
+  "vertices": 159316,
+  "times": 960866,
+  "tick": "seconds",
+  "packed_sha256": "fc8ef78e6aee843c0906523bd94183811eefea26cd6c03e6fbdf03221460d31a",
+  "raw_bytes": 7385842
+}

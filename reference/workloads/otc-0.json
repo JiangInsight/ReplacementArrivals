@@ -1,0 +1,12 @@
+{
+  "graph": "otc",
+  "cohort": 0,
+  "seed": 711,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 6,
+  "reachable": 5775,
+  "total_rows": 35592,
+  "vertices": 5881,
+  "workload_sha256": "daf2f87f240300309fd5e676f750b234a66098ac9ff0f8135ebbcb7b24665495"
+}

@@ -1,0 +1,12 @@
+{
+  "graph": "mixed2048",
+  "cohort": 0,
+  "seed": 711,
+  "release_row": 0,
+  "release_time": 1,
+  "source": 0,
+  "reachable": 24577,
+  "total_rows": 61440,
+  "vertices": 24577,
+  "workload_sha256": "e0787ccef81b6efb68416c9b88617d016884ca4bacfebbd6124d5a78c73fc245"
+}

@@ -1,0 +1,171 @@
+{
+  "scope": "complete frozen matrix",
+  "binary_answer_files_checked": true,
+  "contact": {
+    "cases": 405,
+    "ledger_slots": 2250,
+    "observed_processes": 2244,
+    "complete": 2241,
+    "timeout": 3,
+    "skipped_after_timeout": 6,
+    "complete_csv_files": 2241,
+    "complete_csv_rows": 380232,
+    "recipient_rows_including_repeats": 19030566,
+    "groups": {
+      "ablation": {
+        "complete": 594
+      },
+      "conditioned": {
+        "complete": 108
+      },
+      "direct": {
+        "complete": 153,
+        "timeout": 3,
+        "not-repeated-after-timeout": 6
+      },
+      "direct128": {
+        "complete": 108
+      },
+      "scale": {
+        "complete": 180
+      },
+      "size": {
+        "complete": 108
+      },
+      "sources": {
+        "complete": 990
+      }
+    },
+    "source_sampling": {
+      "college": {
+        "uniform": 100,
+        "high": 10,
+        "overlap": 0,
+        "outdegrees_checked_against_contacts": true
+      },
+      "email": {
+        "uniform": 100,
+        "high": 10,
+        "overlap": 0,
+        "outdegrees_checked_against_contacts": true
+      },
+      "math": {
+        "uniform": 100,
+        "high": 10,
+        "overlap": 0,
+        "outdegrees_checked_against_contacts": true
+      }
+    },
+    "size_grid_distinct_events_by_full_deadline_bin": {
+      "coin": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 24,
+        "64-255": 21,
+        "256+": 4
+      },
+      "college": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 18,
+        "16-63": 0,
+        "64-255": 0,
+        "256+": 0
+      },
+      "comment": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 24,
+        "64-255": 1,
+        "256+": 0
+      },
+      "email": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 6,
+        "64-255": 0,
+        "256+": 0
+      },
+      "flight": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 7,
+        "64-255": 0,
+        "256+": 0
+      },
+      "higgs": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 24,
+        "64-255": 24,
+        "256+": 19
+      },
+      "math": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 19,
+        "16-63": 0,
+        "64-255": 0,
+        "256+": 0
+      },
+      "otc": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 6,
+        "64-255": 0,
+        "256+": 0
+      },
+      "ubuntu": {
+        "1": 24,
+        "2-3": 24,
+        "4-15": 24,
+        "16-63": 1,
+        "64-255": 0,
+        "256+": 0
+      }
+    },
+    "binaries": [
+      "cbff0a74a846fb49deb71a59545c8f6ba5f2acf8908296ab681caffae01517ea"
+    ]
+  },
+  "timetables": {
+    "complete": 160,
+    "census": {
+      "bordeaux": {
+        "requests": 236595,
+        "positive": 88,
+        "rows": 3344,
+        "recovered": 3344,
+        "sha256": "6d40b25b50ed190275091982de27df39d50397cadd324745844e5e569582e24b"
+      },
+      "detroit": {
+        "requests": 214863,
+        "positive": 308,
+        "rows": 6060,
+        "recovered": 5743,
+        "sha256": "fdb7b914b2d2812e50fcbac79ac8adb4fb87b85c3d7d92e511b584fcedea2ea2"
+      },
+      "sydney": {
+        "requests": 1265135,
+        "positive": 9074,
+        "rows": 119293,
+        "recovered": 113284,
+        "sha256": "0d7cd0e0ef34b0518393bdb1c885e0d35e98223501660e8df253b0eeac1eed19"
+      },
+      "winnipeg": {
+        "requests": 333882,
+        "positive": 4421,
+        "rows": 61175,
+        "recovered": 59758,
+        "sha256": "4521c1fd5dea9bbc8aa4cea958199839a0b9039639454e4f5f036089bed32312"
+      }
+    },
+    "binary": "8fcc5733ae680d1563111ed44f22526629fbf76fe25e4cf25acfa89038997519"
+  }
+}

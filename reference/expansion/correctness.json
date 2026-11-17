@@ -1,0 +1,89 @@
+{
+  "seed": 190341,
+  "suite": "base",
+  "methods": [
+    "incident",
+    "calendar",
+    "decremental",
+    "mix",
+    "without-explicit",
+    "without-direct",
+    "without-catalog",
+    "without-uniform",
+    "without-prune",
+    "without-links"
+  ],
+  "strict_rows_match_for_all_methods": true,
+  "exe_sha256": "cbff0a74a846fb49deb71a59545c8f6ba5f2acf8908296ab681caffae01517ea",
+  "source_sha256": {
+    "audit_native.py": "79c5fb41ef5cb7f9a1b730f26438cf393ef77de719d99b554a474e702bb1ef73",
+    "build.bat": "dc88e90c007b718e1cb37b4f4ee42ef7e1379e1aa4c02e3840fc493d4dfe3170",
+    "contact.hpp": "071a1e2c5c3898cdd1691be0a4442bdb64d93207339a02987511bb4714356717",
+    "histories.hpp": "f7721f5cbec66da55e2cab3be6b35f509b6b12cc1613545d86201c76b715269b",
+    "study.cpp": "31d8cbc629c0626d6242b6bb07d11a15af700c9178b6b85469693771d3821f05",
+    "dag.hpp": "7cfd1d3b7c288c11a7679a6299f97c0e417e35891e0b01aa9deea412b159105f",
+    "equations.hpp": "4005b0da4128864d1f267412951261aaf40d116aef594749d9a79cba473d3bd8",
+    "study\\cascade.hpp": "d87f6c717d4dbef4ef1cd23081bccbe8a9a1bd395c2c581d960b9379b184dc25",
+    "study\\components.hpp": "c522b1ae93590fff36d8bbd9980d1b17ea891a633d87de2c5014aa1c31d3bb4d",
+    "study\\contact.hpp": "071a1e2c5c3898cdd1691be0a4442bdb64d93207339a02987511bb4714356717",
+    "study\\dag.hpp": "7cfd1d3b7c288c11a7679a6299f97c0e417e35891e0b01aa9deea412b159105f",
+    "study\\dictionary.hpp": "20bd160e9fb99cf02f0a033c34fadee78c42225ed58b83897ad9220e6ee38912",
+    "study\\dominator.hpp": "8bd07e2b9182f6162d0ff700348030330c1ea842efe37babea61d753e3ec50f0",
+    "study\\equations.hpp": "4005b0da4128864d1f267412951261aaf40d116aef594749d9a79cba473d3bd8",
+    "study\\histories.hpp": "f7721f5cbec66da55e2cab3be6b35f509b6b12cc1613545d86201c76b715269b",
+    "study\\expansion\\baselines.hpp": "77077e9b661a2980cfaa17cb7b242a89bf2295bccb9e4a7b2fc5c3921b002467"
+  },
+  "oracle_rows_sha256": "da552b42f9f4fccb2993a12af6a77b106b25df6e625f90062916cce84b85f8b8",
+  "scope": "The 4096 labelled graphs use one fixed source before their first tick. All source roles occur by relabelling. Native launches isolate components through unique super-source contacts. Exhaustive claims apply to these three-vertex, two-tick inputs only.",
+  "cohorts": {
+    "exhaustive": {
+      "queries": 142848,
+      "nonempty_queries": 32576,
+      "removed_before_release": 0,
+      "removed_after_deadline": 65344,
+      "unrecovered_rows": 45824,
+      "native_input_blocks": 64,
+      "component_inputs": 4096,
+      "recovered_rows": 5120
+    },
+    "random": {
+      "recovered_rows": 816,
+      "queries": 39735,
+      "nonempty_queries": 2701,
+      "removed_before_release": 0,
+      "removed_after_deadline": 19327,
+      "unrecovered_rows": 4686,
+      "native_input_blocks": 4,
+      "component_inputs": 128
+    },
+    "targeted": {
+      "queries": 2620,
+      "nonempty_queries": 536,
+      "removed_before_release": 0,
+      "removed_after_deadline": 1235,
+      "unrecovered_rows": 6398,
+      "recovered_rows": 10326,
+      "native_input_blocks": 7
+    },
+    "release": {
+      "queries": 630,
+      "nonempty_queries": 25,
+      "removed_before_release": 285,
+      "removed_after_deadline": 207,
+      "unrecovered_rows": 30,
+      "native_input_blocks": 9,
+      "recovered_rows": 3
+    }
+  },
+  "totals": {
+    "queries": 185833,
+    "nonempty_queries": 35838,
+    "removed_after_deadline": 86113,
+    "unrecovered_rows": 56938,
+    "native_input_blocks": 84,
+    "component_inputs": 4224,
+    "recovered_rows": 16265,
+    "removed_before_release": 285
+  },
+  "native_query_comparisons": 1858330
+}

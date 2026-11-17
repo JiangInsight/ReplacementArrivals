@@ -1,0 +1,12 @@
+{
+  "instances": 63,
+  "queries": 9618,
+  "positive": 713,
+  "rows": 796,
+  "methods": [
+    "repair"
+  ],
+  "seed": 711,
+  "oracle": "fresh path enumeration per withdrawn event",
+  "binary": "82ffa07cc39fcf31e2b23f0a38178af52595b0d3ef776820598802f7c74860c1"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "math",
+  "url": "https://snap.stanford.edu/data/sx-mathoverflow.txt.gz",
+  "raw_sha256": "cdc635fda76dab06ab02ca242563fa333bb83d096571342ef0326d85ff0c04da",
+  "rows": 506550,
+  "vertices": 24818,
+  "times": 505784,
+  "tick": "seconds",
+  "packed_sha256": "627c84dd8957aff26ec08289bd4f052cbe770bd86344472a444764ff1656575f",
+  "raw_bytes": 3616495
+}

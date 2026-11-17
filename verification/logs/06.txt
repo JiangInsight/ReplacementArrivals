@@ -1,0 +1,9 @@
+verified input and four seeded workloads: otc
+otc-0 0 dom 0.014 122
+otc-0 0 domfull 0.01 122
+otc-1 0 dom 0.084 126
+otc-1 0 domfull 0.012 126
+otc-2 0 domfull 0.014 229
+otc-2 0 dom 0.011 229
+otc-3 0 dom 0.01 347
+otc-3 0 domfull 0.012 347

@@ -1,0 +1,11 @@
+{
+  "dataset": "comment",
+  "url": "https://huggingface.co/datasets/stanford-star/tgb/resolve/af2aaea1b75bf58dcc9d01521d0347c89afec878/tgbl-comment/db/events.parquet",
+  "raw_sha256": "370293c934558da2f7c83d84a9c2615d9a9cba270d759517afd80fbcc57795fe",
+  "rows": 44314507,
+  "vertices": 994790,
+  "times": 30998030,
+  "tick": "seconds",
+  "packed_sha256": "f5dc72397ff629a0e6b5a87bc196555a4c5264fc19dc1a61d55ddec63afa785e",
+  "raw_bytes": 692416266
+}

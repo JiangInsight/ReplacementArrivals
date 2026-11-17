@@ -1,0 +1,12 @@
+{
+  "graph": "comment",
+  "cohort": 1,
+  "seed": 2027,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 8961,
+  "reachable": 565665,
+  "total_rows": 44314507,
+  "vertices": 994790,
+  "workload_sha256": "d2c3bcf9fa2ea8f3368a0462a78669bcb0ec888a9162e2def3d71cd46a527bfe"
+}

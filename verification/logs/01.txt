@@ -1,0 +1,11 @@
+checking base
+base 2787495 checked query answers
+checking cascade
+cascade 759200 checked query answers
+checking component
+component 618555 checked query answers
+checking dom
+dom 557499 checked query answers
+7 14 580 3.27e-05 0.0084441
+7 14 596 1.45e-05 0.0002195
+Both indexes match chronological replay on 7 withdrawals.

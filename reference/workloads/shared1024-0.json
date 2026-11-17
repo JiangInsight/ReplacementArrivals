@@ -1,0 +1,12 @@
+{
+  "graph": "shared1024",
+  "cohort": 0,
+  "seed": 711,
+  "release_row": 0,
+  "release_time": 1,
+  "source": 0,
+  "reachable": 2049,
+  "total_rows": 3072,
+  "vertices": 2049,
+  "workload_sha256": "9cc59ec60cf0e70d433ff33c0f4e44834d76f57a83d0d84a83fe158cd31c28a0"
+}

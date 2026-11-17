@@ -1,0 +1,12 @@
+{
+  "graph": "flight",
+  "cohort": 5,
+  "seed": 91,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 8834,
+  "reachable": 17779,
+  "total_rows": 67169570,
+  "vertices": 18143,
+  "workload_sha256": "dcf5949b785279b6f1b09bd540b5539a7163bb6a9a593a62f542a0a2b4f6278e"
+}

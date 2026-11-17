@@ -1,0 +1,11 @@
+{
+  "dataset": "coin",
+  "url": "https://huggingface.co/datasets/stanford-star/tgb/resolve/af2aaea1b75bf58dcc9d01521d0347c89afec878/tgbl-coin/db/events.parquet",
+  "raw_sha256": "2cb55669b70c80745b5bef406780431994c1077f87467e5f57836934f0312fca",
+  "rows": 22809486,
+  "vertices": 638486,
+  "times": 1295720,
+  "tick": "seconds",
+  "packed_sha256": "c6647997b0eb08cee7e486eca8adb773af4a6d05cbca747d2e6525ab45b98dd0",
+  "raw_bytes": 331065521
+}

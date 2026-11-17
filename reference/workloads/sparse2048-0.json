@@ -1,0 +1,12 @@
+{
+  "graph": "sparse2048",
+  "cohort": 0,
+  "seed": 711,
+  "release_row": 0,
+  "release_time": 1,
+  "source": 0,
+  "reachable": 4097,
+  "total_rows": 38912,
+  "vertices": 4097,
+  "workload_sha256": "8f97cfc4c0dfc45257ce4944783c72a40296a677f29cc0f8e7d7e807c63145d0"
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "mixed2048",
+  "rows": 61440,
+  "vertices": 24577,
+  "times": 2168,
+  "packed_sha256": "6f8b781174fda4471d59ae6d66205f8f2c93095ee6c27710cdd4b43449a6aec6",
+  "generator": "mixed",
+  "depth": 2048
+}

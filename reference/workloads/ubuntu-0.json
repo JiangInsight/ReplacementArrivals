@@ -1,0 +1,12 @@
+{
+  "graph": "ubuntu",
+  "cohort": 0,
+  "seed": 711,
+  "release_row": 0,
+  "release_time": 0,
+  "source": 24,
+  "reachable": 114781,
+  "total_rows": 964437,
+  "vertices": 159316,
+  "workload_sha256": "760c0fd2855db86fe3b8c7f902d7259da4f3774d8f548acec6f72b3464e04673"
+}

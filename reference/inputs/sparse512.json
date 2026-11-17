@@ -1,0 +1,9 @@
+{
+  "dataset": "sparse512",
+  "rows": 9728,
+  "vertices": 1025,
+  "times": 632,
+  "packed_sha256": "360cfb22e35c21c39a9e37e42449d0f5c1634404c47166778007577d36848000",
+  "generator": "sparse",
+  "depth": 512
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "email",
+  "url": "https://snap.stanford.edu/data/email-Eu-core-temporal.txt.gz",
+  "raw_sha256": "f6cc93249978e59d1aba111b55ea10ec553917419a3be1210012b5db3580efa6",
+  "rows": 332334,
+  "vertices": 986,
+  "times": 207880,
+  "tick": "seconds",
+  "packed_sha256": "c5756d5bd4a4f5683069e6f4c70755ab3c5b2fa1f4ff6aae9dca2e428a971d6b",
+  "raw_bytes": 1683428
+}

@@ -1,0 +1,109 @@
+{
+  "seed": 190341,
+  "suite": "cascade",
+  "methods": [
+    "ordered",
+    "cascade",
+    "adaptive",
+    "flatpairs"
+  ],
+  "common_oracle_sha256": "da552b42f9f4fccb2993a12af6a77b106b25df6e625f90062916cce84b85f8b8",
+  "boundary_counts": {
+    "ordered": {
+      "history": 149,
+      "hard_sites": 0,
+      "catalog_keys": 0
+    },
+    "cascade": {
+      "history": 149,
+      "hard_sites": 0,
+      "catalog_keys": 185
+    },
+    "adaptive": {
+      "history": 149,
+      "hard_sites": 3,
+      "catalog_keys": 48
+    },
+    "flatpairs": {
+      "history": 0,
+      "hard_sites": 0,
+      "catalog_keys": 0
+    }
+  },
+  "boundary_construction": "Three hard local histories of lengths 11, 11 and 9, a 9-entry depth-span-63 mask, an 8-entry wide short history, a same-time multi-entrance leaf and two distinct source branches.",
+  "strict_rows_match_for_all_methods": true,
+  "exe_sha256": "c251fb9e7130767570f40407eac5c03ae49033d86f6913bab377ec686126ea21",
+  "source_sha256": {
+    "audit_native.py": "36608c0ec82fefce16ce5ff83b9e38983a55b025ee1b0690f266162bdd2c5167",
+    "build.bat": "3d11749cf8f9282068bab048540dfaa020d124692f4ffe1ed353692253232983",
+    "contact.hpp": "ec6c6a11247088b4fb11cf8ec89a3f42bd4d8f04f5085346fad6ad1f9fde5a34",
+    "histories.hpp": "6bf1e4036a3219c34449e982d384ad89853c4f9e931c1484c28106a165351565",
+    "study.cpp": "a4acb94943a9ed18d58da2c935405369266598b450f9e949dc94e52499417896",
+    "dag.hpp": "c0761242ff1eed20c49184f461ee0a6e6d4980a4dbd12a782d3b782f8d582b73",
+    "equations.hpp": "8df5d385f6b7d6062b04b3b4159237d3ab800c8b49fb1c375767c50638e96509",
+    "cascade.hpp": "fb4cfdc1433242706024a3e41fbc6f280c08a8f5e4d6502336c89443e11ca56f",
+    "dictionary.hpp": "920f5a8f4ba73dbe07fdfe573bbf7acc415618b52393ed106592da643a6e2e1e"
+  },
+  "oracle_rows_sha256": "dc2aaef721ad8724d79b32e1663a6b8efc35417625c77aac8ffc1e66b6a3a5a1",
+  "scope": "The 4096 labelled graphs use one fixed source before their first tick. All source roles occur by relabelling. Native launches isolate components through unique super-source contacts. Exhaustive claims apply to these three-vertex, two-tick inputs only.",
+  "cohorts": {
+    "exhaustive": {
+      "queries": 142848,
+      "nonempty_queries": 32576,
+      "removed_before_release": 0,
+      "removed_after_deadline": 65344,
+      "unrecovered_rows": 45824,
+      "native_input_blocks": 64,
+      "component_inputs": 4096,
+      "recovered_rows": 5120
+    },
+    "random": {
+      "recovered_rows": 816,
+      "queries": 39735,
+      "nonempty_queries": 2701,
+      "removed_before_release": 0,
+      "removed_after_deadline": 19327,
+      "unrecovered_rows": 4686,
+      "native_input_blocks": 4,
+      "component_inputs": 128
+    },
+    "targeted": {
+      "queries": 2620,
+      "nonempty_queries": 536,
+      "removed_before_release": 0,
+      "removed_after_deadline": 1235,
+      "unrecovered_rows": 6398,
+      "recovered_rows": 10326,
+      "native_input_blocks": 7
+    },
+    "release": {
+      "queries": 630,
+      "nonempty_queries": 25,
+      "removed_before_release": 285,
+      "removed_after_deadline": 207,
+      "unrecovered_rows": 30,
+      "native_input_blocks": 9,
+      "recovered_rows": 3
+    },
+    "cascade_boundaries": {
+      "unrecovered_rows": 117312,
+      "recovered_rows": 4292,
+      "queries": 3967,
+      "nonempty_queries": 2524,
+      "removed_before_release": 0,
+      "removed_after_deadline": 1019,
+      "native_input_blocks": 1
+    }
+  },
+  "totals": {
+    "queries": 189800,
+    "nonempty_queries": 38362,
+    "removed_after_deadline": 87132,
+    "unrecovered_rows": 174250,
+    "native_input_blocks": 85,
+    "component_inputs": 4224,
+    "recovered_rows": 20557,
+    "removed_before_release": 285
+  },
+  "native_query_comparisons": 759200
+}

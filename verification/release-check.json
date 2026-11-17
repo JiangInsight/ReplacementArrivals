@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "clean_source_build": true,
+  "fresh_virtual_environment": true,
+  "dependencies": "requirements.txt",
+  "passed": true,
+  "commands": [
+    {
+      "command": [
+        ".\\build.cmd"
+      ],
+      "returncode": 0,
+      "seconds": 20.476521800039336,
+      "log": "validation-logs\\00.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "check",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1"
+      ],
+      "returncode": 0,
+      "seconds": 59.57580950000556,
+      "log": "validation-logs\\01.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "prepare",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1"
+      ],
+      "returncode": 0,
+      "seconds": 4.5626215999946,
+      "log": "validation-logs\\02.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "sessions"
+      ],
+      "returncode": 0,
+      "seconds": 3.8963987000170164,
+      "log": "validation-logs\\03.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "direct"
+      ],
+      "returncode": 0,
+      "seconds": 1.6689377999864519,
+      "log": "validation-logs\\04.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "ablation"
+      ],
+      "returncode": 0,
+      "seconds": 1.7705347999581136,
+      "log": "validation-logs\\05.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "constructors"
+      ],
+      "returncode": 0,
+      "seconds": 1.7864748000283726,
+      "log": "validation-logs\\06.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "reporters"
+      ],
+      "returncode": 0,
+      "seconds": 1.5386419999995269,
+      "log": "validation-logs\\07.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "census",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1"
+      ],
+      "returncode": 0,
+      "seconds": 1.6134576000040397,
+      "log": "validation-logs\\08.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "conditioned"
+      ],
+      "returncode": 0,
+      "seconds": 1.5776678000111133,
+      "log": "validation-logs\\09.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "benchmark",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--suite",
+        "reporters-conditioned"
+      ],
+      "returncode": 0,
+      "seconds": 1.347922099987045,
+      "log": "validation-logs\\10.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "cache",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1",
+        "--budgets",
+        "1MiB",
+        "unlimited"
+      ],
+      "returncode": 0,
+      "seconds": 1.951884100039024,
+      "log": "validation-logs\\11.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\reproduce.py",
+        "summary",
+        "--work",
+        ".\\.work-fetch-validation",
+        "--graphs",
+        "otc",
+        "--repeats",
+        "1"
+      ],
+      "returncode": 0,
+      "seconds": 6.086635400017258,
+      "log": "validation-logs\\12.txt"
+    },
+    {
+      "command": [
+        ".\\build\\bridge_isolation.exe"
+      ],
+      "returncode": 0,
+      "seconds": 0.16360029997304082,
+      "log": "validation-logs\\13.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\supplement\\scheduled_control.py",
+        ".",
+        ".\\.work-fetch-validation\\cache",
+        "build",
+        ".\\.work-fetch-validation\\scheduled-exact.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.0182901000371203,
+      "log": "validation-logs\\14.txt"
+    },
+    {
+      "command": [
+        ".\\.venv\\Scripts\\python.exe",
+        ".\\supplement\\scheduled_control.py",
+        ".",
+        ".\\.work-fetch-validation\\cache",
+        "exact",
+        ".\\.work-fetch-validation\\scheduled-exact.json"
+      ],
+      "returncode": 0,
+      "seconds": 1.6289660999900661,
+      "log": "validation-logs\\15.txt"
+    }
+  ],
+  "correctness": {
+    "base": 2787495,
+    "cascade": 759200,
+    "component": 618555,
+    "dom": 557499
+  },
+  "total_native_query_comparisons": 4722749,
+  "scheduled_oracle": {
+    "instances": 63,
+    "queries": 9618,
+    "positive": 713,
+    "rows": 796,
+    "methods": [
+      "mix",
+      "global",
+      "allpairs",
+      "csa"
+    ],
+    "seed": 711,
+    "oracle": "fresh path enumeration per withdrawn event",
+    "binary": "f7c5b10026f8b7ffdac4e3403d7404ea6e968b1bd43397f0cf7a7167b9812ccf"
+  },
+  "scheduled_repair_oracle": {
+    "instances": 63,
+    "queries": 9618,
+    "positive": 713,
+    "rows": 796,
+    "methods": [
+      "repair"
+    ],
+    "seed": 711,
+    "oracle": "fresh path enumeration per withdrawn event",
+    "binary": "7a2dbb4d5296adc65949df5bea4a9a3c9c5708629e964d17c187f0f2b9a1c4fc"
+  },
+  "input": {
+    "dataset": "otc",
+    "url": "https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz",
+    "raw_sha256": "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373",
+    "rows": 35592,
+    "vertices": 5881,
+    "times": 35592,
+    "tick": "10^-5 seconds",
+    "packed_sha256": "85fda9263742a99b47296030989c2862b3266cb277f8a03da7b22f26acc34018",
+    "raw_bytes": 397258
+  },
+  "scheduled_input": {
+    "city": "kuopio",
+    "archive_url": "https://zenodo.org/api/records/1186215/files/kuopio.zip/content",
+    "daily_input_sha256": "f4e1bfdb5a8549da8152a86f3986a4767b3268f2b705e09c3194e4622efc99b1",
+    "packed_sha256": "53b41dc5bd3d8e68369e64e65eb3dba788eb80b9501cac661f0d7ab964d5da8c",
+    "rows": 32122,
+    "vertices": 549,
+    "time_origin": 1481511600,
+    "zero_duration": 8051,
+    "max_time": 73920
+  },
+  "completed_comparison_records": 210,
+  "completed_by_directory": {
+    "batch/otc-0.json": 1,
+    "batch/otc-1.json": 1,
+    "batch/otc-2.json": 1,
+    "batch/otc-3.json": 1,
+    "cache/otc-grouped-1MiB-0-component.json": 1,
+    "cache/otc-grouped-1MiB-0-expanded.json": 1,
+    "cache/otc-grouped-1MiB-0-repair.json": 1,
+    "cache/otc-grouped-unlimited-0-component.json": 1,
+    "cache/otc-grouped-unlimited-0-expanded.json": 1,
+    "cache/otc-grouped-unlimited-0-repair.json": 1,
+    "cache/otc-shuffled-1MiB-0-component.json": 1,
+    "cache/otc-shuffled-1MiB-0-expanded.json": 1,
+    "cache/otc-shuffled-1MiB-0-repair.json": 1,
+    "cache/otc-shuffled-unlimited-0-component.json": 1,
+    "cache/otc-shuffled-unlimited-0-expanded.json": 1,
+    "cache/otc-shuffled-unlimited-0-repair.json": 1,
+    "reporters-conditioned/otc": 2,
+    "reporters/otc-0": 2,
+    "reporters/otc-1": 2,
+    "reporters/otc-2": 2,
+    "reporters/otc-3": 2,
+    "full/census": 8,
+    "full/timetables": 40,
+    "full/runs": 74,
+    "expansion/runs": 62
+  },
+  "additional_checks": [
+    "OTC record/vertex scaling: 20,40,60,80,100 percent, 30 runs",
+    "OTC six output-size bins at three deadlines, four algorithms",
+    "Kuopio: 36 online runs and four complete all-leg censuses",
+    "shared64 and mixed128: 13 methods each, including all six removals",
+    "Four archived evaluation figures regenerated using the published per-run source data",
+    "pip check passed; source syntax compilation passed; all 60 fetched files byte-identical to licensed source"
+  ],
+  "not_rerun": [
+    "Eight other complete contact logs",
+    "Other six cities",
+    "Full three-repeat large-scale matrix",
+    "100-source sampling on College/email/MathOverflow",
+    "Complete long-session and all synthetic-size matrix"
+  ],
+  "interpretation": "Release functional verification. Fresh timing records are separate from published performance evidence.",
+  "fresh_dependency_fetch": {
+    "source": "https://gitlab.com/tgpublic/tglib.git",
+    "revision": "e56c3ddb2b665455fb16aacca1044b99a62850f0",
+    "required_files": 60,
+    "all_hashes_match": true,
+    "repository_contains_upstream_source": false
+  },
+  "validation_repeated_after_dependency_fetch": true
+}

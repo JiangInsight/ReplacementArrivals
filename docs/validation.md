@@ -1,0 +1,11 @@
+# Release validation, 18 November 2026
+
+The release was copied into a new directory without binaries, caches, downloaded data, environments or Git metadata. A new Python 3.13 virtual environment installed the pinned packages; `pip check` passed. TGLib was then fetched from its pinned public commit after removing the earlier local dependency checkout from the test tree; all 60 required file hashes matched. Visual Studio Build Tools compiled all nine native targets from this copy. The supplemental scheduled-repair executable also compiled from source.
+
+The four independent replay suites passed 4,722,749 native query comparisons: 2,787,495 base, 759,200 cascade, 618,555 component and 557,499 constructor comparisons. Scheduled path enumeration checked 9,618 queries over 63 instances for each selected arm, with an additional independent run of the scheduled-repair adapter. The bridge-isolation executable checked twelve structural fixtures.
+
+The validation downloaded complete Bitcoin OTC and Kuopio inputs from their public providers. OTC's raw and packed SHA-256 values and four seeded request files matched the archived sources. All short online baseline, construction, independent-reporter, six-removal, balanced 2,000-request, full-census and original-cache comparisons passed. Additional tests exercised both sampling axes, output-size/deadline groups, two synthetic controls with thirteen methods each, and Kuopio's 36 online runs plus four all-leg censuses. In total, 210 completed comparison records were generated. Four paper evaluation figures were regenerated from archived measurement CSVs.
+
+These tests establish executable coverage and answer consistency on the tested inputs. This release check did not rerun the other eight complete contact logs, the other six cities, the full large-scale repetition grid, every source-sampling case or every long-session/synthetic-size setting. Commands and pinned manifests for those experiments are provided in [reproduction.md](reproduction.md). Fresh timing records are not pooled with the paper's archived measurements.
+
+[Machine-readable report](../verification/release-check.json), [exact source hashes](../verification/source-sha256.json), and [command logs](../verification/logs) record the check.

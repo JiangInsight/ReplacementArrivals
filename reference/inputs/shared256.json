@@ -1,0 +1,9 @@
+{
+  "dataset": "shared256",
+  "rows": 768,
+  "vertices": 513,
+  "times": 264,
+  "packed_sha256": "e34ef7ad8f77125ebc90041e6784b5d47dafd73f7b0a903b789ba4288c19e95c",
+  "generator": "shared",
+  "depth": 256
+}

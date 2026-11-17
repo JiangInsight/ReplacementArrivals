@@ -1,0 +1,11 @@
+{
+  "dataset": "higgs",
+  "url": "https://snap.stanford.edu/data/higgs-activity_time.txt.gz",
+  "raw_sha256": "901b199716a23b0fc0371705e3ae9941b5c9493277aec65456abc4988674ad79",
+  "rows": 563069,
+  "vertices": 304691,
+  "times": 194437,
+  "tick": "seconds",
+  "packed_sha256": "a8a72477b2aa5d1308869d1007c81e3ca4ef8991738bd6e3189a03092b0ca3e3",
+  "raw_bytes": 4169461
+}

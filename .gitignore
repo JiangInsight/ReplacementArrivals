@@ -1,3 +1,13 @@
 build/
 __pycache__/
 *.pyc
+.work/
+.work-*/
+.venv/
+results/
+*.obj
+*.exe
+*.pdb
+*.ilk
+vendor/tglib/
+vendor/fetch-tglib-*/

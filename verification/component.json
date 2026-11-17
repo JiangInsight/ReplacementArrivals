@@ -1,0 +1,185 @@
+{
+  "seed": 190341,
+  "suite": "component",
+  "methods": [
+    "mix",
+    "global",
+    "allpairs"
+  ],
+  "common_oracle_sha256": "da552b42f9f4fccb2993a12af6a77b106b25df6e625f90062916cce84b85f8b8",
+  "dispatch": {
+    "dense": {
+      "contacts_in_file": 198,
+      "release_record": 0,
+      "vertices": 139,
+      "requests": 8192,
+      "max_output_rows": 113,
+      "policies": {
+        "mix": {
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "pairs": 6213,
+          "index_bytes": 12216
+        },
+        "global": {
+          "components": [
+            0,
+            0,
+            3
+          ],
+          "pairs": 6213,
+          "index_bytes": 11624
+        },
+        "allpairs": {
+          "components": [
+            3,
+            0,
+            0
+          ],
+          "pairs": 6213,
+          "index_bytes": 76148
+        }
+      }
+    },
+    "sparse": {
+      "contacts_in_file": 32966,
+      "release_record": 32768,
+      "vertices": 139,
+      "requests": 8193,
+      "max_output_rows": 113,
+      "policies": {
+        "mix": {
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "pairs": 6213,
+          "index_bytes": 23020
+        },
+        "global": {
+          "components": [
+            0,
+            0,
+            3
+          ],
+          "pairs": 6213,
+          "index_bytes": 22428
+        },
+        "allpairs": {
+          "components": [
+            3,
+            0,
+            0
+          ],
+          "pairs": 6213,
+          "index_bytes": 86952
+        }
+      }
+    }
+  },
+  "prefix_requests_checked": [
+    1,
+    16,
+    256,
+    4096,
+    8192
+  ],
+  "strict_rows_match_for_all_methods": true,
+  "exe_sha256": "c251fb9e7130767570f40407eac5c03ae49033d86f6913bab377ec686126ea21",
+  "source_sha256": {
+    "audit_native.py": "36608c0ec82fefce16ce5ff83b9e38983a55b025ee1b0690f266162bdd2c5167",
+    "build.bat": "3d11749cf8f9282068bab048540dfaa020d124692f4ffe1ed353692253232983",
+    "contact.hpp": "ec6c6a11247088b4fb11cf8ec89a3f42bd4d8f04f5085346fad6ad1f9fde5a34",
+    "histories.hpp": "6bf1e4036a3219c34449e982d384ad89853c4f9e931c1484c28106a165351565",
+    "study.cpp": "a4acb94943a9ed18d58da2c935405369266598b450f9e949dc94e52499417896",
+    "dag.hpp": "c0761242ff1eed20c49184f461ee0a6e6d4980a4dbd12a782d3b782f8d582b73",
+    "equations.hpp": "8df5d385f6b7d6062b04b3b4159237d3ab800c8b49fb1c375767c50638e96509",
+    "cascade.hpp": "fb4cfdc1433242706024a3e41fbc6f280c08a8f5e4d6502336c89443e11ca56f",
+    "dictionary.hpp": "920f5a8f4ba73dbe07fdfe573bbf7acc415618b52393ed106592da643a6e2e1e",
+    "components.hpp": "989251ca83469ac5663d7daa6252464f93c6c2097d54c9e2f105af88e08690e3"
+  },
+  "oracle_rows_sha256": "a127cfc766cc32a12ce68c1e4b18cd65763054c316ada5265fdb41c9eb98c5e7",
+  "scope": "The 4096 labelled graphs use one fixed source before their first tick. All source roles occur by relabelling. Native launches isolate components through unique super-source contacts. Exhaustive claims apply to these three-vertex, two-tick inputs only.",
+  "cohorts": {
+    "exhaustive": {
+      "queries": 142848,
+      "nonempty_queries": 32576,
+      "removed_before_release": 0,
+      "removed_after_deadline": 65344,
+      "unrecovered_rows": 45824,
+      "native_input_blocks": 64,
+      "component_inputs": 4096,
+      "recovered_rows": 5120
+    },
+    "random": {
+      "recovered_rows": 816,
+      "queries": 39735,
+      "nonempty_queries": 2701,
+      "removed_before_release": 0,
+      "removed_after_deadline": 19327,
+      "unrecovered_rows": 4686,
+      "native_input_blocks": 4,
+      "component_inputs": 128
+    },
+    "targeted": {
+      "queries": 2620,
+      "nonempty_queries": 536,
+      "removed_before_release": 0,
+      "removed_after_deadline": 1235,
+      "unrecovered_rows": 6398,
+      "recovered_rows": 10326,
+      "native_input_blocks": 7
+    },
+    "release": {
+      "queries": 630,
+      "nonempty_queries": 25,
+      "removed_before_release": 285,
+      "removed_after_deadline": 207,
+      "unrecovered_rows": 30,
+      "native_input_blocks": 9,
+      "recovered_rows": 3
+    },
+    "component_cascade_boundaries": {
+      "unrecovered_rows": 117312,
+      "recovered_rows": 4292,
+      "queries": 3967,
+      "nonempty_queries": 2524,
+      "removed_before_release": 0,
+      "removed_after_deadline": 1019,
+      "native_input_blocks": 1
+    },
+    "three_encodings_dense": {
+      "unrecovered_rows": 133833,
+      "recovered_rows": 35743,
+      "queries": 8192,
+      "nonempty_queries": 4235,
+      "removed_before_release": 0,
+      "removed_after_deadline": 3037,
+      "native_input_blocks": 1
+    },
+    "three_encodings_sparse": {
+      "unrecovered_rows": 133833,
+      "recovered_rows": 35743,
+      "queries": 8193,
+      "nonempty_queries": 4235,
+      "removed_before_release": 1,
+      "removed_after_deadline": 3037,
+      "native_input_blocks": 1
+    }
+  },
+  "totals": {
+    "queries": 206185,
+    "nonempty_queries": 46832,
+    "removed_after_deadline": 93206,
+    "unrecovered_rows": 441916,
+    "native_input_blocks": 87,
+    "component_inputs": 4224,
+    "recovered_rows": 92043,
+    "removed_before_release": 286
+  },
+  "native_query_comparisons": 618555
+}

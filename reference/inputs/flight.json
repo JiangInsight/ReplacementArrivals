@@ -1,0 +1,11 @@
+{
+  "dataset": "flight",
+  "url": "https://huggingface.co/datasets/stanford-star/tgb/resolve/af2aaea1b75bf58dcc9d01521d0347c89afec878/tgbl-flight/db/events.parquet",
+  "raw_sha256": "ebc32bfff9375e0456affdf68bdec696d54889b52627cef49712b125c96b836d",
+  "rows": 67169570,
+  "vertices": 18143,
+  "times": 1385,
+  "tick": "seconds",
+  "packed_sha256": "8a098c67ee2a0281e3ad7cf96f5521075b66d7eeda78f945eb0a943917b5fb57",
+  "raw_bytes": 521292665
+}

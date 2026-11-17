@@ -1,0 +1,9 @@
+{
+  "dataset": "stairs1024",
+  "rows": 1050624,
+  "vertices": 2049,
+  "times": 8193,
+  "packed_sha256": "0f2016a9800e668af4ea02c8ca66870487db07b249fb9242a428268a6b5ad36a",
+  "generator": "stairs",
+  "depth": 1024
+}

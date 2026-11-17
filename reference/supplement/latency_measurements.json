@@ -1,0 +1,196 @@
+{
+  "utc_start": "2026-11-08T10:43:29.864570+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "random_seed": 86273,
+  "original_identity": {
+    "input": "c6647997b0eb08cee7e486eca8adb773af4a6d05cbca747d2e6525ab45b98dd0",
+    "queries": "3adb6d934eed7ef52faa77c48516fc16d041b2dee762893b0dba0caf2033f3a0",
+    "answer": "43b4f5a990d706440910c7e6e721c9277183d8d17cf8ed2135712bbcb2db843c",
+    "binary": "cbff0a74a846fb49deb71a59545c8f6ba5f2acf8908296ab681caffae01517ea"
+  },
+  "clock_executable_hash": "29c4eaba78183409f537b224769426e625d816b476e3963c5862192752921944",
+  "clock": [
+    {
+      "n": 1000000,
+      "zero": 871884,
+      "min_positive_ns": 100,
+      "median_ns": 0,
+      "p99_ns": 100,
+      "mean_ns": 14.1479,
+      "max_ns": 196000
+    },
+    {
+      "n": 1000000,
+      "zero": 872566,
+      "min_positive_ns": 100,
+      "median_ns": 0,
+      "p99_ns": 100,
+      "mean_ns": 13.078,
+      "max_ns": 63900
+    },
+    {
+      "n": 1000000,
+      "zero": 871006,
+      "min_positive_ns": 100,
+      "median_ns": 0,
+      "p99_ns": 100,
+      "mean_ns": 13.2641,
+      "max_ns": 162600
+    }
+  ],
+  "pairs": [
+    {
+      "pair": 0,
+      "order": [
+        "contacts",
+        "vertices"
+      ],
+      "trials": [
+        {
+          "label": "contacts",
+          "build_s": 0.4669228,
+          "wall_s": 0.7174550999770872
+        },
+        {
+          "label": "vertices",
+          "build_s": 0.5430527,
+          "wall_s": 0.7786396999727003
+        }
+      ]
+    },
+    {
+      "pair": 1,
+      "order": [
+        "vertices",
+        "contacts"
+      ],
+      "trials": [
+        {
+          "label": "vertices",
+          "build_s": 0.6235366,
+          "wall_s": 0.882501800020691
+        },
+        {
+          "label": "contacts",
+          "build_s": 0.5477628,
+          "wall_s": 0.7928562000161037
+        }
+      ]
+    },
+    {
+      "pair": 2,
+      "order": [
+        "vertices",
+        "contacts"
+      ],
+      "trials": [
+        {
+          "label": "vertices",
+          "build_s": 0.533849,
+          "wall_s": 0.8387043999973685
+        },
+        {
+          "label": "contacts",
+          "build_s": 0.4581528,
+          "wall_s": 0.7957242000265978
+        }
+      ]
+    },
+    {
+      "pair": 3,
+      "order": [
+        "vertices",
+        "contacts"
+      ],
+      "trials": [
+        {
+          "label": "vertices",
+          "build_s": 0.4626665,
+          "wall_s": 0.7116277000168338
+        },
+        {
+          "label": "contacts",
+          "build_s": 0.4598777,
+          "wall_s": 0.6962216999963857
+        }
+      ]
+    },
+    {
+      "pair": 4,
+      "order": [
+        "contacts",
+        "vertices"
+      ],
+      "trials": [
+        {
+          "label": "contacts",
+          "build_s": 0.4824006,
+          "wall_s": 0.7419282000046223
+        },
+        {
+          "label": "vertices",
+          "build_s": 0.475737,
+          "wall_s": 0.7653406000463292
+        }
+      ]
+    },
+    {
+      "pair": 5,
+      "order": [
+        "vertices",
+        "contacts"
+      ],
+      "trials": [
+        {
+          "label": "vertices",
+          "build_s": 0.5230213,
+          "wall_s": 0.844648199970834
+        },
+        {
+          "label": "contacts",
+          "build_s": 0.5524573,
+          "wall_s": 0.7808911999454722
+        }
+      ]
+    },
+    {
+      "pair": 6,
+      "order": [
+        "contacts",
+        "vertices"
+      ],
+      "trials": [
+        {
+          "label": "contacts",
+          "build_s": 0.6170856,
+          "wall_s": 0.8763723999727517
+        },
+        {
+          "label": "vertices",
+          "build_s": 0.5598114,
+          "wall_s": 0.8247162000043318
+        }
+      ]
+    },
+    {
+      "pair": 7,
+      "order": [
+        "contacts",
+        "vertices"
+      ],
+      "trials": [
+        {
+          "label": "contacts",
+          "build_s": 0.5106227,
+          "wall_s": 0.796546199999284
+        },
+        {
+          "label": "vertices",
+          "build_s": 0.4799198,
+          "wall_s": 0.858920099970419
+        }
+      ]
+    }
+  ],
+  "utc_end": "2026-11-08T10:43:43.490554+00:00"
+}

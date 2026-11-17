@@ -1,0 +1,12 @@
+{
+  "graph": "email",
+  "cohort": 3,
+  "seed": 5113,
+  "release_row": 166167,
+  "release_time": 102708,
+  "source": 273,
+  "reachable": 896,
+  "total_rows": 166167,
+  "vertices": 986,
+  "workload_sha256": "ff6991bf7e48e554b3a3b3ae2f646477aae2e55e40e0cfc363814de85f685e3e"
+}

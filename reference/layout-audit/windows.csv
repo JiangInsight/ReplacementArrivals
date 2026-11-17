@@ -1,0 +1,5 @@
+graph,source,condition,kept_rows,base_roots,new_roots,same_event_root,departed,appeared,encoding_changed,size_changed
+college,40,release+1pct,59237,1628,1618,1573,55,45,0,4
+college,40,prefix99pct,59237,1628,1610,1610,18,0,0,0
+math,30,release+1pct,501485,21292,21191,20860,432,331,1,12
+math,30,prefix99pct,501485,21292,21027,21027,265,0,0,1

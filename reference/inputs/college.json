@@ -1,0 +1,11 @@
+{
+  "dataset": "college",
+  "url": "https://snap.stanford.edu/data/CollegeMsg.txt.gz",
+  "raw_sha256": "50ae2d98ed3bad9ddb18dbd495a89e5e10cfb8f7e86932827db29fc41b41f9fa",
+  "rows": 59835,
+  "vertices": 1899,
+  "times": 58911,
+  "tick": "seconds",
+  "packed_sha256": "735c1d186b351d5703e29c4800f0d75998b1db253b643bb4c1020a419ef2b782",
+  "raw_bytes": 345339
+}

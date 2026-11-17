@@ -1,0 +1,136 @@
+{
+  "real_events": 136755380,
+  "size_and_fields_verified_against_packed_inputs": {
+    "coin": [
+      22809486,
+      1295720
+    ],
+    "college": [
+      59835,
+      58911
+    ],
+    "comment": [
+      44314507,
+      30998030
+    ],
+    "email": [
+      332334,
+      207880
+    ],
+    "flight": [
+      67169570,
+      1385
+    ],
+    "higgs": [
+      563069,
+      194437
+    ],
+    "math": [
+      506550,
+      505784
+    ],
+    "otc": [
+      35592,
+      35592
+    ],
+    "ubuntu": [
+      964437,
+      960866
+    ]
+  },
+  "processes": {
+    "instant_online": 2472,
+    "batch_offline": 135,
+    "instant_census": 180,
+    "timetables": 120,
+    "total": 2907
+  },
+  "instant_census": {
+    "eligible": 410323380,
+    "positive": 3959601,
+    "rows": 5008194,
+    "recovered": 3659729
+  },
+  "graphs_with_two_distinct_census_sources": 9,
+  "strict_setting_wins_36": {
+    "vs_all": 36,
+    "vs_pruned": 35,
+    "offline": 29
+  },
+  "same_backend_construction": {
+    "coin": {
+      "dom": 0.6130187,
+      "domfull": 1.83660015,
+      "frontier": 0.42834649999999996,
+      "pruned_over_stream": 1.4311280703822724,
+      "full_over_stream": 4.28765065198385
+    },
+    "comment": {
+      "dom": 0.6198553499999999,
+      "domfull": 2.31056055,
+      "frontier": 0.5118523,
+      "pruned_over_stream": 1.2110043268341275,
+      "full_over_stream": 4.514115790824814
+    },
+    "flight": {
+      "dom": 0.2955754,
+      "domfull": 0.58108145,
+      "frontier": 0.1671619,
+      "pruned_over_stream": 1.7681983753474924,
+      "full_over_stream": 3.4761596392479386
+    }
+  },
+  "paris": {
+    "0": {
+      "mix": {
+        "wall_s": 0.16700079999282025,
+        "index_bytes": 36616
+      },
+      "allpairs": {
+        "wall_s": 0.15559989999746904,
+        "index_bytes": 62196
+      },
+      "csa": {
+        "wall_s": 0.7256894999882206,
+        "index_bytes": 0
+      }
+    },
+    "1": {
+      "mix": {
+        "wall_s": 0.23133349997806363,
+        "index_bytes": 1074520
+      },
+      "allpairs": {
+        "wall_s": 0.20846279998659156,
+        "index_bytes": 2701576
+      },
+      "csa": {
+        "wall_s": 1.068095299997367,
+        "index_bytes": 0
+      }
+    },
+    "2": {
+      "mix": {
+        "wall_s": 0.12929780001286417,
+        "index_bytes": 511452
+      },
+      "allpairs": {
+        "wall_s": 0.10949499998241663,
+        "index_bytes": 1072112
+      },
+      "csa": {
+        "wall_s": 0.33802759999525733,
+        "index_bytes": 0
+      }
+    }
+  },
+  "timetable_census": {
+    "eligible": 2904212,
+    "positive": 5189,
+    "rows": 27554,
+    "recovered": 27397
+  },
+  "basis": "Raw per-process ledgers, retained answer bytes, packed input hashes, and a separate sparse record decoder. Includes source and deadline duplication across independent what-if settings. Raw milliseconds are not pooled across repetitions.",
+  "distinct_packed_input_files_hashed": 9,
+  "distinct_reference_answer_files_hashed": 106
+}
